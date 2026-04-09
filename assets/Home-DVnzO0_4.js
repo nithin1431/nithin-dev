@@ -1,0 +1,4 @@
+import{R as c,r as o,j as e,u as x,A as g}from"./index-DgfYb75y.js";const m=({label:t,onClick:s})=>{const[a,l]=o.useState(!1),i=()=>{l(r=>!r),s?.()};return e.jsx("button",{onClick:i,className:`
+        px-4 py-2 rounded-lg text-white transition duration-300
+        ${a?"bg-green-600 hover:bg-green-700":"bg-blue-500 hover:bg-blue-600"}
+      `,children:t})},n=c.memo(m),b=()=>{const t=x(),{theme:s}=o.useContext(g);return e.jsxs("div",{className:`min-h-screen flex flex-col items-center justify-center ${s==="dark"?"bg-slate-900 text-white":"bg-gray-100 text-black"}`,children:[e.jsx("h1",{className:"text-4xl font-bold mb-6 text-center",children:"Welcome to Dev Nithin"}),e.jsxs("div",{className:"flex gap-6",children:[e.jsx(n,{label:"Login",onClick:()=>t("/login")}),e.jsx(n,{label:"Register",onClick:()=>alert("Register not implemented")})]})]})};export{b as default};
